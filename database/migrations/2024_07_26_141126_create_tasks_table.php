@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id');
             $table->foreignId('category_id');
-            $table->string('title');
+            $table->string('taskname');
             $table->text('description')->nullable();
             $table->date('start_date');
             $table->date('end_date');
